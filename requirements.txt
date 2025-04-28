@@ -5,4 +5,4 @@ langchain_core
 langchain_openai
 openai
 python-dotenv
-streamlit==1.44.0
+streamlit==1.41.0
