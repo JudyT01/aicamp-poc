@@ -7,4 +7,3 @@ openai
 python-dotenv
 streamlit
 boto3
-BaseModel
