@@ -1,5 +1,4 @@
 # Set up and run this Streamlit App
-import pydantic; pydantic.class_validators._FUNCS.clear()
 import pysqlite3
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
