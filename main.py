@@ -5,6 +5,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import os
 import streamlit as st
+from pydantic import BaseModel, validator
 import base64
 from crewai import Crew, Process, Agent, Task
 from crewai_tools import ScrapeWebsiteTool, PDFSearchTool, FileReadTool
